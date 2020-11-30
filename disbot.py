@@ -13,8 +13,8 @@ async def on_message(message):
     general = bot.get_channel(message.channel.id)
     if message.content == "אבי פרטי":
         await message.author.send("בנצ'וק די אני לא גנבתי")
-    elif message.content == "אבי":
-            await general.send("מוטולה")
+    elif message.content == "בנצ'וק":
+            await general.send("זה לא היה אבי")
     await bot.process_commands(message)
             
 @bot.command("ban")
