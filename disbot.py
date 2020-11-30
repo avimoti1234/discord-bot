@@ -61,4 +61,4 @@ async def leave(ctx):
     server = ctx.message.guild.voice_client
     await server.disconnect()
 
-bot.run("NzY3MzI2NTQ0Nzc4NDkzOTUy.X4wSiA.O-aCRyXQqDv40F0nT1vLZNJokgo")
+bot.run(TOKEN")
